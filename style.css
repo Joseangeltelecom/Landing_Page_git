@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+  p{
+      font-size: 14px;
+  }
+
+.conteiner1{
+    background: linear-gradient(rgb(13, 4, 97,0.9), transparent),
+    url("/Landing_Page_git/img/Rectangle\ 3.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#header {
+    
+    color: white;
+    top: 0px;
+    z-index: 3;
+}
+
+nav{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-family: Lato;
+    font-weight: mixed;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;   
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+  
+
+#logo {
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.boton-login {
+font-family: Lato;
+padding: 1.2rem 3.5rem;
+border: 1px solid #FFFFFF;
+border-radius: 6px;
+background: none;
+color: white;
+text-transform: uppercase;
+
+}
+
+.hero-image{
+    width: 100%;
+    height:779px;
+    background-size: cover;
+    
+}
+/*Here Section*/
+
+#hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+font-family:  Lato;
+font-style:  Bold;
+font-size:  8rem;
+line-height: 86px;
+line-height: 100%;
+text-align: Left;
+vertical-align: Center;
+letter-spacing: 5%;
+color: #FFFFFF;
+text-transform: uppercase;
+margin-top: 12rem;
+
+}
+
+h2{
+font-family: Lato;
+font-style: normal;
+font-size: 24px;
+line-height: 36px;
+line-height: 150%;
+color: white;
+text-align: center;
+margin-top: 4rem;
+}
+
+.boton-hero{
+font-size:2rem ;
+font-family: Lato;
+padding: 1.2rem 3.5rem;
+border: 1px solid #FFFFFF;
+border-radius: 6px;
+background: white;
+color:#2A0280;
+margin-top: 4rem;
+}
+/* Overview*/
+
+#overview {
+    height: 400px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    justify-content: space-around;
+}
+
+h3{
+font-family: Lato;
+font-style: semibold;
+Font-size: 36px;
+line-height: 43px;
+text-align: center;
+}
+
+#overview p{
+font-family: Lato;
+font-style: Regular;
+font-size: 14px;
+line-height: 20px;
+text-align: justify;
+margin-top: 4rem;
+}
+
+.video-mask{
+    width: 560px;
+    border-radius: 10px; 
+    overflow: hidden; 
+}
+
+/*Features*/
+.h3-features{
+    background-color: #FAFAFA;
+    padding-top: 2rem;
+}
+
+.features{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    background-color: #FAFAFA;
+    
+}
+
+.container{
+    width: 350px;
+    height:400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+.container-text {
+    background-color: #FFFFFF;
+    width: 293px;
+    height: 198px;
+    border-radius: 8px;
+    top: 50%;
+    transform: translate(-0%, -50%);
+    margin: auto;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);  
+}
+
+h4 {
+display: block;
+font-family: Lato;
+font-style: Bold;
+Font-size: 18px;
+text-align: center;
+padding-top: 3rem;
+
+}
+
+.container-text p{
+font-family: Lato;
+font-style: Regular;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+margin-top: 2rem;
+}
+
+/*downloud Section*/
+
+.downloud{
+    background-color: #2D1494;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text-downloud{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text-white{
+    color: #FFFFFF;
+    margin-top: 4rem;
+    text-align: justify;
+}
+
+
+.downloud-container{
+position: relative;
+width: 515px;
+height: 324px;
+background-image: url(/Landing_Page_git/img/imagen_fondo.png);
+background-repeat: no-repeat;
+display: flex;
+align-items: center;
+
+}
+
+.img-main{
+    height:324px;
+    width: 400px;
+    display: flex;
+    justify-items: center;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -13%);
+    }
+
+
+.logo-downloud{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 4rem;
+   
+}
+
+/*contact section*/
+
+#contact{
+     display: flex;
+     justify-content: space-around;
+     height: 60vh;
+}
+
+.container-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50rem;
+    height: 35rem;
+    margin-top: 8rem;
+}
+
+.contact-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.contact-text p{
+    margin-top: 4rem;
+
+}
+
+.name-form{
+    width: 80%;
+    height: 6rem;
+    border-radius:6px;
+    border: 1.5px solid lightslategray;
+    text-indent:30px;
+      
+}
+
+.email-phone-form{
+    width: 100%;
+    height: 6rem;
+    border-radius:6px ;
+    margin-top: 2.4rem;
+    border: 1.5px solid lightslategray;
+    text-indent:30px;
+    
+}
+
+.submit-now{
+
+width: 160px;
+height: 50px;
+background: #2D1494;
+border: 1.5px solid #2D1494;
+border-radius: 6px;
+color: white;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+margin-top: 2.4rem;
+position: relative;
+}
+
+.input1{
+    display: flex;
+    width: 100%;
+}
+
+.input2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+#lastname{
+    margin-left:5%;
+
+}
+
+/*footer*/
+
+#footer{
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FAFAFA;
+}
+
+.footer-container{
+    margin-top: 4rem;
+}
+.footer-container h4{
+
+    margin-bottom: 3rem;
+    text-align: start;
+
+}
+.footer-container p{
+    text-align: start;
+    font-size: 15px;
+    margin-top: 10rem;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.footer-container ul{
+    list-style: none;
+    font-size: 12px
+    
+}
+
+
+
+
+
+
+
+
