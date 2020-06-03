@@ -267,6 +267,7 @@ position: relative;
 width: 40%;
 height: 324px;
 background-image: url(/Landing_Page_git/img/imagen_fondo.png);
+background-size: cover;
 background-repeat: no-repeat;
 display: flex;
 align-items: center;
