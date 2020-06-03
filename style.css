@@ -166,11 +166,11 @@ margin-top: 4rem;
 }
 
 .overview-text{
-    width: 100%;
+    width: 50%;
 }
 
 .video-mask{
-    width: 100%;
+    width: 50%;
     border-radius: 10px; 
     overflow: hidden; 
 }
@@ -382,7 +382,7 @@ position: relative;
     height: 50vh;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: ;
     background-color: #FAFAFA;
 }
 
