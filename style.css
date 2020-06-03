@@ -16,6 +16,8 @@
       font-size: 14px;
   }
 
+/*Hero and nav Section*/
+
 .conteiner1{
     background: linear-gradient(rgb(13, 4, 97,0.9), transparent),
     url("/Landing_Page_git/img/Rectangle\ 3.png");
@@ -103,8 +105,6 @@ h1 {
 font-family:  Lato;
 font-style:  Bold;
 font-size:  8rem;
-line-height: 86px;
-line-height: 100%;
 text-align: Left;
 vertical-align: Center;
 letter-spacing: 5%;
@@ -138,14 +138,13 @@ margin-top: 4rem;
 /* Overview*/
 
 #overview {
-    height: 400px;
     width: 90%;
+    height: 400px;
     margin: auto;
     display: flex;
-    align-items: center;
-    margin-top: 5rem;
+    margin-top: 9rem;
     margin-bottom: 5rem;
-    justify-content: space-around;
+
 }
 
 h3{
@@ -161,12 +160,17 @@ font-family: Lato;
 font-style: Regular;
 font-size: 14px;
 line-height: 20px;
-text-align: justify;
+text-align: center;
 margin-top: 4rem;
+
+}
+
+.overview-text{
+    width: 100%;
 }
 
 .video-mask{
-    width: 560px;
+    width: 100%;
     border-radius: 10px; 
     overflow: hidden; 
 }
@@ -185,25 +189,26 @@ margin-top: 4rem;
     width: 100%;
     margin: auto;
     background-color: #FAFAFA;
-    
 }
 
 .container{
-    width: 350px;
+    width: 25%;
     height:400px;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-top: 5rem;
 }
 
 .container-text {
     background-color: #FFFFFF;
-    width: 293px;
+    width: 100%;
     height: 198px;
     border-radius: 8px;
     top: 50%;
-    transform: translate(-0%, -50%);
+    left: 1%;
+    transform: translate(2%, -50%);
     margin: auto;
     box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);  
 }
@@ -232,7 +237,9 @@ margin-top: 2rem;
 .downloud{
     background-color: #2D1494;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    width: 100%;
     height: 500px;
     align-items: center;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
@@ -250,29 +257,29 @@ margin-top: 2rem;
     text-align: justify;
 }
 
-
 .downloud-container{
 position: relative;
-width: 515px;
+width: 40%;
 height: 324px;
 background-image: url(/Landing_Page_git/img/imagen_fondo.png);
 background-repeat: no-repeat;
 display: flex;
 align-items: center;
+flex-wrap: nowrap;
 
 }
 
 .img-main{
+    width: 80%;
     height:324px;
-    width: 400px;
     display: flex;
     justify-items: center;
     position: absolute;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%, -13%);
+    flex-wrap: nowrap;
+    top: -7%;
+    left: 8%;
+    
     }
-
 
 .logo-downloud{
    display: flex;
@@ -286,14 +293,17 @@ align-items: center;
 #contact{
      display: flex;
      justify-content: space-around;
-     height: 60vh;
+     flex-wrap: wrap;
+     width: 100%;
+     height: 70vh;
+     
 }
 
 .container-input{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50rem;
+    width: 40%;
     height: 35rem;
     margin-top: 8rem;
 }
@@ -301,7 +311,9 @@ align-items: center;
 .contact-text{
     display: flex;
     flex-direction: column;
+    text-align: center;
     justify-content: center;
+    width: 40%;
 
 }
 
@@ -331,7 +343,7 @@ align-items: center;
 
 .submit-now{
 
-width: 160px;
+width: 100%;
 height: 50px;
 background: #2D1494;
 border: 1.5px solid #2D1494;
@@ -366,9 +378,11 @@ position: relative;
 /*footer*/
 
 #footer{
+    width: 100%;
     height: 50vh;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     background-color: #FAFAFA;
 }
 
