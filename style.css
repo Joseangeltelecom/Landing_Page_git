@@ -13,10 +13,6 @@
     Font-size: calc(0.3rem + 1vw);
   }
 
-h1{
-    Font-size: calc(4rem + 1.5vw);
-}
-
 h2{
     Font-size: calc(.9rem + 1vw);
 }
@@ -105,7 +101,9 @@ vertical-align: Center;
 letter-spacing: 2%;
 color: #FFFFFF;
 text-transform: uppercase;
+Font-size: calc(4rem + 1vw);
 }
+
 
 h2{
 font-family: Lato;
