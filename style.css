@@ -144,15 +144,15 @@ color:#2A0280;
 .overview-text{
     width: 50%;
     padding: 1.5%;
-    min-width: 40vh;
+    min-width: 50vh;
 }
 
 .video-mask{
     width: 50%;
-    min-width: 70vh;
+    min-width: 50vh;
     border-radius: 1.5%; 
     overflow: hidden;
-    height: 40vh;
+    height: 50vh;
 }
 
 #overview h3{
