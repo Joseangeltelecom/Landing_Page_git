@@ -94,14 +94,11 @@ Font-size: calc(.16rem + 1vw);
     height: 70vh;
 }
 
-h1 {
+.text-h1 {
 font-family: Lato;
-font-style: Bold;
-vertical-align: Center;
-letter-spacing: 2%;
 color: #FFFFFF;
 text-transform: uppercase;
-Font-size: calc(4rem + 1vw);
+Font-size: calc(4rem + 2vw);
 }
 
 
