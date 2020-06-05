@@ -144,7 +144,7 @@ color:#2A0280;
 .overview-text{
     width: 50%;
     padding: 1.5%;
-    min-width: 80vh;
+    min-width: 40vh;
 }
 
 .video-mask{
@@ -152,7 +152,7 @@ color:#2A0280;
     min-width: 70vh;
     border-radius: 1.5%; 
     overflow: hidden;
-    height: 50vh;
+    height: 40vh;
 }
 
 #overview h3{
