@@ -24,6 +24,15 @@ h2{
   .img-global{
       width: 100%;
   }
+ 
+  .img-icon{
+      width: 9%;
+  }
+
+  .visa{
+      width: 100%;
+
+  }
 
 /*Nav Section*/
 nav{
@@ -53,15 +62,16 @@ a {
 
 .logo{
     display: flex;
+    width: 20%;
+    height:30%;
 }
 
 .logo p{
     font-family: Lato;
     font-weight: bold;
-    Font-size: calc(.8rem + 1vw);
+    Font-size: calc(1rem + 1vw);
     text-transform: uppercase;
     color: #FFFFFF;
-    padding: 0.2em;
 }
 
 .boton-login {
@@ -70,7 +80,7 @@ width: 7em;
 min-width: 5em;
 height:3em;
 border: 1px solid #FFFFFF;
-border-radius: 6px;
+border-radius: .4em;
 background: none;
 color: white;
 text-transform: uppercase;
@@ -91,29 +101,32 @@ Font-size: calc(.16rem + 1vw);
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 70vh;
+    width: 100%;
+    height: 90vh;
+
 }
 
-.text-h1 {
+#hero-section p {
+
 font-family: Lato;
 color: #FFFFFF;
 text-transform: uppercase;
-Font-size: calc(4rem + 2vw);
+Font-size: 15vh
 }
 
-
-h2{
+h2 {
 font-family: Lato;
 color: #FFFFFF;
 text-align: center;
+Font-size: calc(.9rem + 1vw);
 }
 
 .boton-hero{
 Font-size: calc(.8rem + 1vw);
 font-family: Lato;
-padding: 1.2em 2em;
+padding: .8em 1.5em;
 border: 1px solid #FFFFFF;
-border-radius: 6px;
+border-radius: .4em;
 background: white;
 color:#2A0280;
 }
@@ -137,8 +150,9 @@ color:#2A0280;
 .video-mask{
     width: 50%;
     min-width: 80vh;
-    border-radius: 10px; 
-    overflow: hidden; 
+    border-radius: 1.5%; 
+    overflow: hidden;
+    height: 50vh;
 }
 
 #overview h3{
@@ -162,13 +176,13 @@ padding: 2em;
 
 .container-tittle-feature{
     text-align: center;
-    padding-top: 4em;
+    padding-top: 2%;
 
 }
 .features{
     display: flex;
     justify-content: space-around;
-    padding: 5em;
+    padding: 2%;
     flex-wrap: wrap;  
 }
 .container{
@@ -185,7 +199,7 @@ padding: 2em;
     width: 95%;
     min-width: 40vh;
     height: 50%;
-    border-radius: 8px;
+    border-radius: 2em;
     margin: auto;
     box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);  
     transform: translate(0, -30%);
@@ -199,14 +213,19 @@ font-family: Lato;
 font-style: Bold;
 Font-size: calc(0.6rem + 1vw);
 text-align: center;
+margin-top: 1em;
 }
+
+#features h3 {
+  margin: 1%;
+    }
 
 .container-text p{
 font-family: Lato;
 font-style: Regular;
 Font-size: calc(.2rem + 1vw);
 text-align: center;
-margin-top: 6%;
+margin-top: 2em;
 }
 
 .container-text p span{
@@ -234,11 +253,14 @@ margin-top: 6%;
 
 .text-downloud h3{
     text-align: center;
+    color: white;
 }
 
 .text-downloud p{
     text-align: justify;
     padding-top: 2em;
+    color: white;
+    margin-top: 1em;
 }
 
 .downloud-container{
@@ -253,11 +275,6 @@ margin-top: 6%;
     
     }
 
-.text-white{
-    color: #FFFFFF;
-    margin-top: 1em;
-    text-align: justify;
-}
 .img-fondo{
     width: 80%;
     display: flex;
@@ -316,28 +333,29 @@ margin-top: 6%;
 }
 
 .contact-text p{
-    margin-top: 3em;
-    text-align: justify
+    margin-top: 3%;
+    text-align: justify;
+    padding: 2%;
 
 }
 
 .name-form{
     width: 80%;
-    height: 6em;
-    border-radius:6px;
+    height: 4em;
+    border-radius: .6em;
     border: 1.5px solid lightslategray;
-    text-indent:30px;
+    text-indent:2em;
     Font-size: calc(0.3rem + 1vw);
       
 }
 
 .email-phone-form{
     width: 100%;
-    height: 6em;
-    border-radius:6px ;
+    height: 4em;
+    border-radius: .6em;
     margin-top: 2.4em;
     border: 1.5px solid lightslategray;
-    text-indent:30px;
+    text-indent:2em;
     Font-size: calc(0.3rem + 1vw);
     
 }
@@ -345,10 +363,10 @@ margin-top: 6%;
 .submit-now{
 
 width: 100%;
-height: 5em;
+height: 4em;
 background: #2D1494;
 border: 1.5px solid #2D1494;
-border-radius: 6px;
+border-radius: .6em;
 color: white;
 font-family: Lato;
 font-size: calc(0.3rem + 1vw);
@@ -389,32 +407,29 @@ margin-top: 2.4em;
 
 .footer-container h4{
 
-    margin-bottom: 3em;
-    margin-top: 3em;
+    margin-bottom: 2em;
+    margin-top: 2em;
     text-align: center;
 
-}
-.footer-container p{
-    text-align: start;
-    font-size: calc(0.3rem + 1vw);
-    margin-top: 10em;
-    font-family: Lato;
 }
 
 .footer-container ul{
     list-style: none;
     font-size: calc(0.3rem + 1vw);
+    text-align: start;
+    font-family: Lato;
     
 }
 
 .copyright{
-    margin: 4em 0;
+    margin: 4% 0;
     text-align: center;
+    font-size: calc(0.3rem + 1vw);
 }
 
-
-
-
-
+@media screen and (min-width: 3084px) {
+    h1{
+        font-size: 15rem;
+    }
 
 
