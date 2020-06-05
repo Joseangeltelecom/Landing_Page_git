@@ -10,15 +10,11 @@
     font-family: "Poppins", sans-serif;
   }
   p{
-    Font-size: calc(0.3rem + 1vw);
+    Font-size: 1rem;
   }
 
-h2{
-    Font-size: calc(.9rem + 1vw);
-}
-
  h3{
-  Font-size: calc(1.4rem + 1vw);
+  Font-size: 2rem;
  }
 
   .img-global{
@@ -41,18 +37,24 @@ nav{
   height: 15vh;
   margin: 0 auto;
   align-items: center;
+  justify-content: center;
 }
 
 nav ul {
     display: flex;
     flex: 1 1 40rem;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     list-style: none;
     font-family: Lato;
-    Font-size: calc(.16rem + 1vw);
+    Font-size: .8rem;
     text-transform: uppercase; 
     color: white ;  
+}
+
+nav li{
+    margin: 0 1.3em;
+
 }
 
 a {
@@ -62,29 +64,27 @@ a {
 
 .logo{
     display: flex;
-    width: 20%;
-    height:30%;
 }
 
 .logo p{
     font-family: Lato;
     font-weight: bold;
-    Font-size: calc(1rem + 1vw);
+    Font-size: 2rem;
     text-transform: uppercase;
     color: #FFFFFF;
 }
 
 .boton-login {
 font-family: Lato;
-width: 7em;
+width: 7rem;
 min-width: 5em;
-height:3em;
+height:3rem;
 border: 1px solid #FFFFFF;
 border-radius: .4em;
 background: none;
 color: white;
 text-transform: uppercase;
-Font-size: calc(.16rem + 1vw);
+Font-size: .8rem;
 }
 
 /*Hero Section*/
@@ -106,23 +106,23 @@ Font-size: calc(.16rem + 1vw);
 
 }
 
-#hero-section p {
+h1 {
 
 font-family: Lato;
 color: #FFFFFF;
 text-transform: uppercase;
-Font-size: 15vh
+Font-size: 5rem;
 }
 
 h2 {
 font-family: Lato;
-color: #FFFFFF;
+color:white;
 text-align: center;
-Font-size: calc(.9rem + 1vw);
+Font-size: 2rem;
 }
 
 .boton-hero{
-Font-size: calc(.8rem + 1vw);
+Font-size: 1rem;
 font-family: Lato;
 padding: .8em 1.5em;
 border: 1px solid #FFFFFF;
@@ -149,7 +149,7 @@ color:#2A0280;
 
 .video-mask{
     width: 50%;
-    min-width: 80vh;
+    min-width: 70vh;
     border-radius: 1.5%; 
     overflow: hidden;
     height: 50vh;
@@ -187,7 +187,7 @@ padding: 2em;
 }
 .container{
     width: 25%;
-    min-width: 40vh;
+    min-width: 50vh;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -199,7 +199,7 @@ padding: 2em;
     width: 95%;
     min-width: 40vh;
     height: 50%;
-    border-radius: 2em;
+    border-radius: 1em;
     margin: auto;
     box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);  
     transform: translate(0, -30%);
@@ -211,9 +211,8 @@ h4 {
 display: block;
 font-family: Lato;
 font-style: Bold;
-Font-size: calc(0.6rem + 1vw);
+Font-size: 1.2rem;
 text-align: center;
-margin-top: 1em;
 }
 
 #features h3 {
@@ -223,9 +222,9 @@ margin-top: 1em;
 .container-text p{
 font-family: Lato;
 font-style: Regular;
-Font-size: calc(.2rem + 1vw);
+Font-size: .8rem;
 text-align: center;
-margin-top: 2em;
+margin-top: 1em;
 }
 
 .container-text p span{
@@ -345,7 +344,7 @@ margin-top: 2em;
     border-radius: .6em;
     border: 1.5px solid lightslategray;
     text-indent:2em;
-    Font-size: calc(0.3rem + 1vw);
+    Font-size: .8rem;
       
 }
 
@@ -356,7 +355,7 @@ margin-top: 2em;
     margin-top: 2.4em;
     border: 1.5px solid lightslategray;
     text-indent:2em;
-    Font-size: calc(0.3rem + 1vw);
+    Font-size: .8rem;
     
 }
 
@@ -369,7 +368,7 @@ border: 1.5px solid #2D1494;
 border-radius: .6em;
 color: white;
 font-family: Lato;
-font-size: calc(0.3rem + 1vw);
+Font-size: .8rem;
 margin-top: 2.4em;
 }
 
@@ -427,9 +426,121 @@ margin-top: 2.4em;
     font-size: calc(0.3rem + 1vw);
 }
 
-@media screen and (min-width: 3084px) {
+.copyright p{
+    font-size: calc(0.3rem + 1vw);
+}
+
+@media screen and (max-width: 779px) {
     h1{
-        font-size: 15rem;
+        font-size: 4rem;
+        margin-top: 2rem;
     }
 
+    h2{
+        font-size: 1.5rem;
+    }
+
+     .logo{
+
+        margin-top: 2em;
+     }
+     
+    .logo p{
+        font-family: Lato;
+        font-weight: bold;
+        Font-size: 1.7rem;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+
+    nav{
+        flex-direction: column;
+        height: 25vh;
+    }
+
+    nav ul{
+
+        margin-top: 1rem;
+       
+     
+    }
+
+    .boton-login {
+        padding: .5rem;
+        margin-top: 1rem;
+       
+        }
+
+        .container-text {
+            height: 40vh;
+        }
+
+            h3{
+                font-size: 1.7rem;
+
+            }
+
+            p{
+               font-size: .8rem;
+                
+            }
+
+            @media screen and (max-width: 438px) {
+
+h1{
+        font-size: 3rem;
+    }
+
+    h2{
+        font-size: 1.3rem;
+    }
+
+     .logo{
+
+        margin-top: 2em;
+     }
+     
+    .logo p{
+        font-family: Lato;
+        font-weight: bold;
+        Font-size: 1.7rem;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+
+    nav{
+        flex-direction: column;
+        height: 25vh;
+    }
+
+    nav ul{
+
+        margin-top: 1rem;
+       
+     
+    }
+
+    .boton-login {
+        padding: .5rem;
+        margin-top: 1rem;
+       
+        }
+
+        .container-text {
+            height: 40vh;
+        }
+
+            h3{
+                font-size: 1.7rem;
+
+            }
+
+            p{
+               font-size: .8rem;
+                
+            }
+}
+}
 
