@@ -144,12 +144,12 @@ color:#2A0280;
 .overview-text{
     width: 50%;
     padding: 1.5%;
-    min-width: 60vh;
+    min-width: 100vw;
 }
 
 .video-mask{
     width: 50%;
-    min-width: 60vh;
+    min-width: 90vw;
     border-radius: 1.5%; 
     overflow: hidden;
     height: 50vh;
@@ -187,7 +187,7 @@ padding: 2em;
 }
 .container{
     width: 25%;
-    min-width: 50vh;
+    min-width: 50vw;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -197,7 +197,7 @@ padding: 2em;
 .container-text {
     background-color: #FFFFFF;
     width: 95%;
-    min-width: 40vh;
+    min-width: 40vw;
     height: 50%;
     border-radius: 1em;
     margin: auto;
@@ -247,7 +247,7 @@ margin-top: 1em;
 .text-downloud{
     width: 50%;
     padding: 1.5%;
-    min-width: 50vh;
+    min-width: 90vw;
 }
 
 .text-downloud h3{
@@ -264,7 +264,7 @@ margin-top: 1em;
 
 .downloud-container{
     position: relative;
-    min-width: 70vh;
+    min-width: 70vw;
     width: 50%;
     padding: 1.5%;
     display: flex;
@@ -318,7 +318,7 @@ margin-top: 1em;
     align-items: center;
     width: 50%;
     padding: 1em;
-    min-width: 70vh;
+    min-width: 70vw;
 }
 
 .contact-text{
@@ -468,7 +468,7 @@ margin-top: 2.4em;
 
     .boton-login {
         padding: .5rem;
-        margin-top: 2rem;
+        margin-top: 1.2rem;
        
         }
 
@@ -496,12 +496,13 @@ h1{
         font-size: 1.3rem;
     }
 
-    @media screen and (max-width: 3649px) {
-        h1{
-            font-size: 3rem;
 
+}
+
+@media screen and (max-width: 365px) {
+
+    h1{
+            font-size: 3rem;
         }
 
-    
-}}
-
+}
