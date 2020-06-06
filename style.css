@@ -20,6 +20,11 @@
   .img-global{
       width: 100%;
   }
+
+  
+  #header-img{
+    width: 100%;
+}
  
   .img-icon{
       width: 9%;
@@ -31,13 +36,17 @@
   }
 
 /*Nav Section*/
+
 nav{
+  position: fixed;
   display: flex;
-  width: 90%;
+  width: 100%;
   min-height: 15vh;
-  margin: 0 auto;
   align-items: center;
   justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent);
+  z-index: 2;
+  min-width: 2vw;
 }
 
 nav ul {
@@ -50,6 +59,7 @@ nav ul {
     Font-size: .8rem;
     text-transform: uppercase; 
     color: white ;  
+    min-width: 2vw;
 }
 
 nav li{
@@ -64,6 +74,7 @@ a {
 
 .logo{
     display: flex;
+    margin-left: 2rem;
 }
 
 .logo p{
@@ -82,7 +93,6 @@ border-radius: .4em;
 background: none;
 color: white;
 text-transform: uppercase;
-Font-size: .8rem;
 }
 
 /*Hero Section*/
@@ -109,6 +119,7 @@ font-family: Lato;
 color: #FFFFFF;
 text-transform: uppercase;
 Font-size: 5rem;
+margin-top: 5rem;
 }
 
 h2 {
@@ -313,7 +324,7 @@ margin-top: 1em;
     width: 90%;
 }
 
-.container-input{
+form{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -431,6 +442,8 @@ margin-top: 2.4em;
 }
 
 @media screen and (max-width: 826px) {
+
+
     h1{
         font-size: 4rem;
         margin-top: 2rem;
@@ -456,12 +469,13 @@ margin-top: 2.4em;
 
     nav{
         flex-direction: column;
-        height: 25vh;
+        height: 15vh;
     }
 
     nav ul{
 
         margin-top: 1rem;
+        display: flex;
        
      
     }
@@ -469,7 +483,7 @@ margin-top: 2.4em;
     .boton-login {
         padding: .5rem;
         margin-top: 1.2rem;
-       
+        margin-right: 0px;
         }
 
         .container-text {
@@ -486,6 +500,10 @@ margin-top: 2.4em;
                 
             }
 
+            h1{
+                margin-top: 10rem;
+            }
+
             @media screen and (max-width: 438px) {
 
 h1{
@@ -494,6 +512,14 @@ h1{
 
     h2{
         font-size: 1.3rem;
+    }
+
+    nav li{
+        margin: 0 .7em;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
     }
 
 }
