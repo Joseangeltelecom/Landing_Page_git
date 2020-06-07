@@ -41,7 +41,7 @@ nav{
   position: fixed;
   display: flex;
   width: 100%;
-  min-height: 10vh;
+  min-height: 80px;
   align-items: center;
   justify-content: center;
   background-color: rgb(0, 0, 0, 0.5);
@@ -503,7 +503,12 @@ margin-top: 2.4em;
                 margin-top: 10rem;
             }
 
-            @media screen and (max-width: 438px) {
+     @media screen and (max-width: 438px) {
+
+nav{
+            
+        min-height: 120px;
+}
 
 h1{
         font-size: 3.3rem;
