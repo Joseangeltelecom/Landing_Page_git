@@ -41,10 +41,10 @@ nav{
   position: fixed;
   display: flex;
   width: 100%;
-  min-height: 15vh;
+  min-height: 10vh;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent);
+  background-color: rgb(0, 0, 0, 0.5);
   z-index: 2;
   min-width: 2vw;
 }
@@ -87,7 +87,7 @@ a {
 
 .boton-login {
 font-family: Lato;
-padding: 1rem 2rem;
+padding: .8em 1.5em;
 border: 1px solid #FFFFFF;
 border-radius: .4em;
 background: none;
@@ -443,7 +443,7 @@ margin-top: 2.4em;
 
 @media screen and (max-width: 826px) {
 
-
+    
     h1{
         font-size: 4rem;
         margin-top: 2rem;
@@ -455,7 +455,7 @@ margin-top: 2.4em;
 
      .logo{
 
-        margin-top: 5em;
+        margin-top: 1em;
      }
      
     .logo p{
@@ -474,7 +474,7 @@ margin-top: 2.4em;
 
     nav ul{
 
-        margin-top: 1rem;
+        margin-top: rem;
         display: flex;
        
      
@@ -482,7 +482,6 @@ margin-top: 2.4em;
 
     .boton-login {
         padding: .5rem;
-        margin-top: 1.2rem;
         margin-right: 0px;
         }
 
